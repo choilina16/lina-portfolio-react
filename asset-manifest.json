@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/choilina16/lina-portfolio-react/static/css/main.367ef5f8.css",
+    "main.js": "/choilina16/lina-portfolio-react/static/js/main.b76925e0.js",
+    "index.html": "/choilina16/lina-portfolio-react/index.html",
+    "main.367ef5f8.css.map": "/choilina16/lina-portfolio-react/static/css/main.367ef5f8.css.map",
+    "main.b76925e0.js.map": "/choilina16/lina-portfolio-react/static/js/main.b76925e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.367ef5f8.css",
+    "static/js/main.b76925e0.js"
+  ]
+}
