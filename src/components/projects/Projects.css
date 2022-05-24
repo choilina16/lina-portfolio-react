@@ -1,0 +1,25 @@
+.projects-heading h1 {
+  font-family: 'Sacramento', cursive;
+  padding-left: 1%;
+  font-size: 4rem;
+}
+
+.projects-container {
+  margin-top: 4%;
+  margin-right: 4%;
+  margin-left: 4%;
+  background-color: var(--ltBrown);
+  border-style: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgb(185, 184, 184);
+}
+
+.my-projects {
+  margin: 1%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects-image-1 {
+}

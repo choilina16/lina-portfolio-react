@@ -3,5 +3,9 @@ import './Footer.css';
 
 export default function Footer() {
   // dont forget ()
-  return <div>Footer</div>;
+  return (
+    <footer>
+      <p>Created By Lina Choi</p>
+    </footer>
+  );
 }

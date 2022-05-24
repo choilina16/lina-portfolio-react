@@ -3,13 +3,16 @@ import './About.css';
 // importing in icons from https://react-icons.github.io/react-icons
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { AiFillFileWord } from 'react-icons/ai';
+// importing in picture from assets folder.
+// it wouldn't work when I would just path it normally
+import profile from '../../assets/profile.jpg';
 
 export default function About() {
   // dont forget ()
   return (
     <div className="container about-me-container">
       <div className="container profile-container">
-        <img src="../../assets/profile.jpg" alt="me" />
+        <img src={profile} alt="me" />
         <h1>
           Hi, my name is <span>Lina</span>!
         </h1>
