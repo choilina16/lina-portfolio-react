@@ -1,0 +1,44 @@
+.contact-me-container {
+  margin-top: 4%;
+  margin-right: 8%;
+  margin-left: 8%;
+  background-color: var(--green);
+  border-style: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgb(185, 184, 184);
+}
+
+.contact-me-container h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  text-align: right;
+  margin-right: 1%;
+}
+
+.contact-me-container h4 {
+  font-size: 2rem;
+  text-align: left;
+  margin-right: 1%;
+}
+
+.contact-me-form form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-me-form input {
+  border-style: none;
+  border-radius: 20px;
+  text-align: center;
+  width: 260px;
+}
+
+.contact-me-form button {
+  border-style: none;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: var(--ltBrown);
+}
+

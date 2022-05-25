@@ -6,20 +6,31 @@
 
 .projects-container {
   margin-top: 4%;
-  margin-right: 4%;
-  margin-left: 4%;
+  margin-right: 8%;
+  margin-left: 8%;
   background-color: var(--ltBrown);
   border-style: none;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgb(185, 184, 184);
 }
 
-.my-projects {
-  margin: 1%;
-  padding-bottom: 2%;
+.project-card-container {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 2%;
 }
 
-.projects-image-1 {
+.project-card {
+  background-color: var(--dkGreen);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgb(124, 124, 124);
+  height: 15rem;
+  width: 15rem;
+}
+
+.project-card a {
+  text-align: center;
+  color: var(--ltGray);
+  text-decoration: none;
 }

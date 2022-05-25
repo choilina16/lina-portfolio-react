@@ -42,42 +42,48 @@ export default function Form() {
   };
 
   return (
-    <div>
+    <div className="contact-me-container">
       <div>
         <h1>contact me</h1>
+        <h4>Let's connect!</h4>
       </div>
-      <div>
+
+      <div className="contact-me-form">
         <form>
+          <label for="name">NAME</label>
           <input
             value={name}
             name="name"
             onChange={handleInputChange}
             type="name"
-            placeholder="name"
+            className="name"
           />
+          <label for="email">EMAIL</label>
           <input
             value={email}
             name="email"
             onChange={handleInputChange}
             type="email"
-            placeholder="email"
+            className="email"
           />
+          <label for="phone">PHONE</label>
           <input
             value={phone}
             name="phone"
             onChange={handleInputChange}
             type="phone"
-            placeholder="phone number"
+            className="phone"
           />
+          <label for="message">MESSAGE</label>
           <input
             value={message}
             name="message"
             onChange={handleInputChange}
             type="message"
-            placeholder="message"
+            className="message"
           />
           <button type="button" onClick={handleFormSubmit}>
-            Submit
+            SUBMIT
           </button>
         </form>
         {errorMessage && (

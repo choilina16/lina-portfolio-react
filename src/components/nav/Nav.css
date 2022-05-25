@@ -1,4 +1,8 @@
 .nav-bar {
   background-color: var(--ltBrown);
-  color: var(--font);
+  color: black;
 }
+
+/* .nav-bar a {
+  text-decoration: none;
+} */

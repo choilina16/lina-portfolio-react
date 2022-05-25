@@ -38,6 +38,7 @@
 
 .about-me-details p {
   text-align: center;
+  color: black;
 }
 
 .about-me-socials {
@@ -51,7 +52,7 @@
 }
 
 .socials-color {
-  color: var(--ltBrown);
+  color: var(--socials);
 }
 
 .about-me-button {
