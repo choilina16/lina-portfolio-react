@@ -1,12 +1,13 @@
 .about-me-container {
   display: flex;
   margin-top: 6%;
+  align-items: center;
 }
 
 .profile-container {
   text-align: center;
-  position: relative;
-  right: 100px;
+  /* position: relative; */
+  /* right: 100px; */
 }
 
 .profile-container span {

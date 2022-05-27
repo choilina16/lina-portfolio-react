@@ -60,15 +60,15 @@ export default function About() {
           >
             <BsLinkedin size={42} className="socials-color" />
           </a>
-          {/* <a
+          <a
             href="https://docs.google.com/document/d/1PC_1iTvL3C_jE6gpAVp4rAQBamB57s_Dp6MdYQHnuKw/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
             <AiFillFileWord size={42} className="socials-color" />
-          </a> */}
+          </a>
         </div>
-
+{/* 
         <div className="about-me-button">
           <button
             className="button"
@@ -76,7 +76,7 @@ export default function About() {
           >
             RESUME
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

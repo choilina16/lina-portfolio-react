@@ -6,7 +6,9 @@ export default function Nav() {
     <div className="nav-bar">
       <ul className="nav justify-content-end">
         <li class="nav-item">
-          <a className="nav-link nav-name">LINA CHOI</a>
+          <a className="nav-link nav-name" href="#">
+            LINA CHOI
+          </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#about-me-nav">
