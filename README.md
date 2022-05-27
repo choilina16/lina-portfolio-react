@@ -8,3 +8,6 @@ Started my coding journey in 2022, and can't wait to see where it'll take me!
 
 ## Link to Deployed Page
 [Heroku Page](https://peaceful-forest-66567.herokuapp.com/)
+
+## Contact Me
+choilina16@gmail.com
