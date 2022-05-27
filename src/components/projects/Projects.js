@@ -3,15 +3,15 @@ import './Projects.css';
 
 export default function Projects() {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects-nav">
       <div className="projects-heading">
         <h1>projects</h1>
       </div>
 
       <div className="project-card-container">
         <div className="project-card">
-          <a href="#" target="_blank" rel="noreferrer">
-            <h3>COMING SOON!</h3>
+          <a href="#about-me-container">
+            <h4>COMING SOON!</h4>
           </a>
         </div>
 
@@ -21,23 +21,23 @@ export default function Projects() {
             target="_blank"
             rel="noreferrer"
           >
-            <h3>Getaway | Road Trip App</h3>
-            <p>Road trip planner that calculates real time traveling</p>
+            <h4>Getaway Road Trip App</h4>
+            {/* <p>Road trip planner that calculates real time traveling</p> */}
             <p>HTML, CSS, JavaScript, Server-side API</p>
           </a>
         </div>
 
         <div className="project-card">
           <a
-            href="https://knowyourteacher.herokuapp.com/"
+            href="https://github.com/choilina16/know-your-teacher"
             target="_blank"
             rel="noreferrer"
           >
-            <h3>Know Your Teacher App</h3>
-            <p>
+            <h4>Know Your Teacher App</h4>
+            {/* <p>
               Teachers fill out forms so that students are able to get to know
               them better
-            </p>
+            </p> */}
             <p>JavaScript, Node, Express, Handlebars, MySQL</p>
           </a>
         </div>
@@ -48,11 +48,11 @@ export default function Projects() {
             target="_blank"
             rel="noreferrer"
           >
-            <h3>E-Commerce Back End</h3>
-            <p>
+            <h4>E-Commerce Back End</h4>
+            {/* <p>
               Back end for an e-commerce site using Sequelize to interact with a
               MySQL database
-            </p>
+            </p> */}
             <p>JavaScript, Node, Express, MySQL</p>
           </a>
         </div>
@@ -63,11 +63,11 @@ export default function Projects() {
             target="_blank"
             rel="noreferrer"
           >
-            <h3>Social Network API</h3>
-            <p>
+            <h4>Social Network API</h4>
+            {/* <p>
               API for social network where users can share their thoughts and
               reactions
-            </p>
+            </p> */}
             <p>JavaScript, Node, Express, Mongoose</p>
           </a>
         </div>
@@ -78,10 +78,10 @@ export default function Projects() {
             target="_blank"
             rel="noreferrer"
           >
-            <h3>Professional README Generator</h3>
-            <p>
+            <h4>Professional README Generator</h4>
+            {/* <p>
               Helps user create a professional README based on multiple prompts
-            </p>
+            </p> */}
             <p>JavaScript, Node, Inquirer</p>
           </a>
         </div>

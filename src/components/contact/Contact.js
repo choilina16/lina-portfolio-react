@@ -1,5 +1,9 @@
 // // using activity 16 as a reference!
 
+// notification that this field is required
+// notification if I have entered an invalid email address
+// list of the developer’s proficiencies
+
 import React, { useState } from 'react';
 import './Contact.css';
 import { validateEmail } from '../utils/helpers';
@@ -42,7 +46,7 @@ export default function Form() {
   };
 
   return (
-    <div className="contact-me-container">
+    <div className="contact-me-container" id="contact-nav">
       <div>
         <h1>contact me</h1>
         <h4>Let's connect!</h4>

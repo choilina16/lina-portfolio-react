@@ -6,25 +6,20 @@ export default function Nav() {
     <div className="nav-bar">
       <ul className="nav justify-content-end">
         <li class="nav-item">
-          <a className="nav-link disabled">LINA CHOI</a>
+          <a className="nav-link nav-name">LINA CHOI</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
-            HOME
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="#about-me-nav">
             ABOUT
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="#projects-nav">
             PROJECTS
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="#contact-nav">
             CONTACT
           </a>
         </li>

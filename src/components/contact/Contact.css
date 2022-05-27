@@ -1,7 +1,9 @@
 .contact-me-container {
   margin-top: 4%;
-  margin-right: 8%;
-  margin-left: 8%;
+  margin-right: 13%;
+  margin-left: 13%;
+  margin-bottom: 8%;
+  padding-bottom: 5%;
   background-color: var(--green);
   border-style: none;
   border-radius: 20px;
@@ -41,4 +43,3 @@
   padding: 10px;
   background-color: var(--ltBrown);
 }
-

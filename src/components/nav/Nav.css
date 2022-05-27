@@ -1,8 +1,17 @@
 .nav-bar {
   background-color: var(--ltBrown);
-  color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-/* .nav-bar a {
+.nav-bar a {
   text-decoration: none;
-} */
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.nav-bar a:hover {
+  color: var(--dkGreen);
+}

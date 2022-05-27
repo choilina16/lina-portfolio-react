@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
 import Projects from './components/projects/Projects';
@@ -11,7 +10,6 @@ export default function App() {
   return (
     <div>
       <Nav />
-      <Header />
       <About />
       <Projects />
       <Contact />
